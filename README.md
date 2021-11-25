@@ -1,11 +1,5 @@
-# go-oracle-sample
-Consulta y Ejecucion de Cursores de Oracle
+# go-rest-sample
+Consulta sobre otro api
 
 
-Requsitos para esta integracion:
-- Tener el cliente oracle instalado
-- Instalar el driver de oracle para golang a través del siguiente comando:
 
-```bash
-go get github.com/godror/godror
-```
