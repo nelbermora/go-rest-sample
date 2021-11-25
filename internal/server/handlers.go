@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi"
-	"github.com/nelbermora/go-oracle-sample/internal/model"
-	"github.com/nelbermora/go-oracle-sample/internal/service"
+	"github.com/nelbermora/go-rest-sample/internal/model"
+	"github.com/nelbermora/go-rest-sample/internal/service"
 )
 
 func setupHandlers(router chi.Router) {

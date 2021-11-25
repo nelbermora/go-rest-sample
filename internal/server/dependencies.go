@@ -10,7 +10,6 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi"
-	"github.com/nelbermora/go-oracle-sample/internal/clients/db"
 )
 
 // esta func sirve para inicializar las dependencias necesarios
@@ -22,6 +21,7 @@ func SetupDependencies() (http.Handler, error) {
 	setupHandlers(router)
 
 	// se inicializa la db
-	db.InitializeDB()
+	//para este ejemplo puedo comentar la inicializacion de la db
+	//db.InitializeDB()
 	return router, nil
 }

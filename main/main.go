@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/nelbermora/go-oracle-sample/internal/server"
+	"github.com/nelbermora/go-rest-sample/internal/server"
 )
 
 func main() {

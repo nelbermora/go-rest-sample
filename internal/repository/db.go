@@ -7,7 +7,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/nelbermora/go-oracle-sample/internal/clients/db"
+	"github.com/nelbermora/go-rest-sample/internal/clients/db"
 )
 
 func LlamarSP() (string, error) {

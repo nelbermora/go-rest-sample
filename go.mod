@@ -1,8 +1,8 @@
-module github.com/nelbermora/go-oracle-sample
+module github.com/nelbermora/go-rest-sample
 
 go 1.15
 
 require (
 	github.com/go-chi/chi v1.5.4
-	github.com/godror/godror v0.28.1
+	github.com/godror/godror v0.29.0
 )
